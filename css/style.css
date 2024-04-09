@@ -1,0 +1,59 @@
+@import "/css/variables.css";
+
+
+body {
+    background: var(--grey100, #F8F8F8);
+}
+
+h1 {
+    font-family: var(--h1FontFamily) !important;
+    font-weight: var(--h1FontWeight) !important;
+    font-size: var(--h1FontSize) !important;
+    letter-spacing: var(--h1LetterSpacing) !important;
+}
+
+h2 {
+    font-family: var(--h2FontFamily) !important;
+    font-weight: var(--h2FontWeight) !important;
+    font-size: var(--h2FontSize) !important;
+    letter-spacing: var(--h2LetterSpacing) !important;
+}
+
+.headerImage {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.04%, rgba(0, 0, 0, 0.60) 70.71%), url("/assets/unsplash_ftA71vetxuo.png") lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 300px;
+    max-height: 500px;
+}
+
+.headerH1 {
+    display: flex;
+    align-content: center;
+    position: relative;
+    bottom: -200px;
+    color: var(--white);
+    justify-content: center;
+}
+
+.sectionCenter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.login {
+    position: relative;
+    top: -50px;
+    width: 80vw;
+    height: fit-content;
+    padding: var(--spacing8, 32px) var(--spacing6, 24px);
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--spacing9, 36px);
+    border-radius: var(--borderRadiusLogin, 16px);
+    background: var(--grey100, #F8F8F8);
+
+    /* loginShadow */
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
